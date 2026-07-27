@@ -1,11 +1,30 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "1",
+      "name": "Alex Smith",
+      "email": "alex@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "role": "user"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "posts": [
+    {
+      "id": "101",
+      "title": "Welcome to My Website",
+      "content": "This is the first post using a JSON database!",
+      "authorId": "1",
+      "createdAt": "2026-07-27"
+    }
+  ],
+  "settings": {
+    "siteName": "My Awesome Site",
+    "theme": "dark",
+    "maintenanceMode": false
   }
 }
